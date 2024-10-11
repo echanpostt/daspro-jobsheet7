@@ -9,7 +9,7 @@ public class TugasParkir06 {
         Scanner sc = new Scanner(System.in);
         int jenis, durasi, total = 0;
         do {
-            System.out.print("masukkan jenis kendaraan(1 = mobil, 2 = motor, 0 = keluar): ");
+            System.out.print("masukkan jenis kendaraan(1 = mobill, 2 = motor, 0 = keluar): ");
             jenis = sc.nextInt();
             if (jenis != 1 && jenis != 2 && jenis != 0) {
                 System.out.println("kode kendaraan tidak valid. coba lagi ");
